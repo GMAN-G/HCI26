@@ -13,7 +13,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-/[Aa]ssets/90.Downloads/
+/[Aa]ssets/9.Downloads/
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
@@ -105,3 +105,4 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+HCI26/Assets/9.Downloads/_Tanks/Art/Materials/PowerUps/Powerup_Health.mat.meta
