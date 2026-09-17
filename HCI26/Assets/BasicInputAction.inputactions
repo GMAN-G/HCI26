@@ -39,7 +39,7 @@
             ],
             "bindings": [
                 {
-                    "name": "1D Axis",
+                    "name": "Arrow",
                     "id": "aca8229f-290f-4e53-b895-484bc3df1651",
                     "path": "1DAxis",
                     "interactions": "",
@@ -72,7 +72,40 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "1D Axis",
+                    "name": "Key",
+                    "id": "d76d5b2a-78c3-48a5-94e5-c3b3410d8348",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "ccb3d8eb-277e-4886-940a-30ebb68d1ec4",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "f6da267b-2b3c-43bf-8c1a-e8cbebe9d642",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Arrow",
                     "id": "e5a11464-57cc-4615-9c07-a9298c2ab22b",
                     "path": "1DAxis",
                     "interactions": "",
@@ -97,6 +130,39 @@
                     "name": "positive",
                     "id": "12af9762-d784-4120-b276-3f1dff7c22d3",
                     "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Key",
+                    "id": "d49a613b-f046-43d0-86ac-f75ad4966bad",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "377b01e4-fca8-48a6-be1c-2e5fb8fe7b6a",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "672cae35-5112-4e1d-87a7-69cd6ae93952",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

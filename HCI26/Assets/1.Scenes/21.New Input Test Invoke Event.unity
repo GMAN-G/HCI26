@@ -275,6 +275,8 @@ GameObject:
   - component: {fileID: 248794047}
   - component: {fileID: 248794046}
   - component: {fileID: 248794045}
+  - component: {fileID: 248794049}
+  - component: {fileID: 248794048}
   m_Layer: 11
   m_Name: Cannon
   m_TagString: Untagged
@@ -378,6 +380,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248794043}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &248794048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248794043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba3a006364125f14594276a73db476eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CannonNewInput
+  shellprefab: {fileID: 0}
+  fireTrans: {fileID: 0}
+--- !u!114 &248794049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248794043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
+  m_Actions: {fileID: -944628639613478452, guid: bcf42c80dd99ed2448c981a584fd43ce, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: FPS
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &570499011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,11 +1258,35 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents:
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1849834894}
+        m_TargetAssemblyTypeName: TankMoveEvent, Assembly-CSharp
+        m_MethodName: OnTankMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: ba088de5-97e9-4163-aa39-72c9e1ae3f7b
     m_ActionName: 'FPS/Move[/Keyboard/downArrow,/Keyboard/upArrow]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1849834894}
+        m_TargetAssemblyTypeName: TankMoveEvent, Assembly-CSharp
+        m_MethodName: OnTankRotate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: e94e6349-75fe-40c4-9b9d-67d0487b0ad9
     m_ActionName: 'FPS/Rotate[/Keyboard/leftArrow,/Keyboard/rightArrow]'
   - m_PersistentCalls:
@@ -1237,9 +1307,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1849834886}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 808ba6aca08404942b4b2b9bb0916ad9, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b9745a22ea70f746a5a4d24b6f82bac, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TankMoveNewinput
+  m_EditorClassIdentifier: Assembly-CSharp::TankMoveEvent
   moveSpeed: 3
   rotateSpeed: 30
 --- !u!1 &1884959411
