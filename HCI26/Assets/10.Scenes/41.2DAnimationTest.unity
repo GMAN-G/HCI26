@@ -130,6 +130,8 @@ GameObject:
   - component: {fileID: 869233038}
   - component: {fileID: 869233037}
   - component: {fileID: 869233036}
+  - component: {fileID: 869233039}
+  - component: {fileID: 869233040}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -227,13 +229,55 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 869233035}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.348, z: 0}
+  m_LocalRotation: {x: 0.20404598, y: 0.009979639, z: -0.0020798538, w: -0.97890824}
+  m_LocalPosition: {x: -0.6603097, y: 0.20921022, z: 2.6157844}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1812614881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &869233039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869233035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
+  m_Actions: {fileID: -944628639613478452, guid: bcf42c80dd99ed2448c981a584fd43ce, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: FPS
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &869233040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869233035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ff176b719ea2d499e0a32defb9e1e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
 --- !u!1 &1255250438
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,10 +536,11 @@ Transform:
   m_GameObject: {fileID: 1812614877}
   serializedVersion: 2
   m_LocalRotation: {x: -0.20404598, y: -0.009979639, z: 0.0020798538, w: -0.97890824}
-  m_LocalPosition: {x: 0.60958076, y: 2.201287, z: -2.4944777}
+  m_LocalPosition: {x: -10.77, y: 4.72, z: -1.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 869233038}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1998212231
@@ -565,5 +610,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 1255250440}
   - {fileID: 1998212231}
-  - {fileID: 869233038}
   - {fileID: 1812614881}
