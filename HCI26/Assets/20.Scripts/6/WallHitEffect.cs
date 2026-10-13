@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public class WallHitEffect : MonoBehaviour
 {
     public ParticleSystem effect;
