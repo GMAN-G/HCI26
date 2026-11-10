@@ -29,5 +29,8 @@ public class Sphere : MonoBehaviour
         Vector3 worldPos = arCamera.ScreenToWorldPoint(new Vector3(screenPos.x, screenPos.y, 0.5f));
         GameObject go = Instantiate(spherePrefab, worldPos, Quaternion.identity);
         go.transform.parent = parentSphere;
+
+        GameManager.instance.ShowMessage("Sphere");
     }
+
 }

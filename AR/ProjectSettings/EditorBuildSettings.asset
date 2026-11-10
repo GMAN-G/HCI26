@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/10.Scenes/03.ZombieAR.unity
     guid: e7f99c8ba5b1ec14088048e46e237c00
-  - enabled: 1
+  - enabled: 0
     path: Assets/10.Scenes/04. Sphere.unity
     guid: 02643b2009b012b438483a96d141f678
+  - enabled: 1
+    path: Assets/10.Scenes/05.PlaneTest.unity
+    guid: 7922175fcdab35f46bc664ed12de5dee
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9514d5b8ba6536148ae9d1ccc721b8f5, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
