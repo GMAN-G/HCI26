@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/10.Scenes/05.PlaneTest.unity
     guid: 7922175fcdab35f46bc664ed12de5dee
-  - enabled: 1
+  - enabled: 0
     path: Assets/10.Scenes/06.Place Car.unity
     guid: 7079c26ed2caf2149ac8b0fe5e44223e
+  - enabled: 0
+    path: Assets/10.Scenes/07.Draw Lines.unity
+    guid: bfddce1b15597f243a45d30cb567fc61
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9514d5b8ba6536148ae9d1ccc721b8f5, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

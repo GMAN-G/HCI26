@@ -18,7 +18,7 @@ MonoBehaviour:
   startWidth: 0.01
   endWidth: 0.01
   distanceFromCamera: 0.3
-  defaultMaterial: {fileID: 0}
+  defaultMaterial: {fileID: 2100000, guid: ecefca4d66913614db95962980eeb0a1, type: 2}
   cornerVertices: 5
   endCapVertices: 5
   minDistanceBeforeNewPoint: 0.001

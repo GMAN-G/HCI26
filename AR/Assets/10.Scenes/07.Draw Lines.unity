@@ -1183,8 +1183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02eecda9fd4e2df45ba40e7655a6b505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DrawLine
-  lineSetting: {fileID: 0}
-  arCam: {fileID: 0}
+  lineSetting: {fileID: 11400000, guid: 62fc5000aa82c64478bf5f9c2dc8baa9, type: 2}
+  arCam: {fileID: 595166347}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
