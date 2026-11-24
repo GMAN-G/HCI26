@@ -27,3 +27,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: myQR
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5347742694185464820
+      m_GuidHigh: 6540194534565263550
+    m_SerializedTextureGuid:
+      m_GuidLow: 1681053802066353653
+      m_GuidHigh: 15446659396612085498
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: namecard
+    m_Texture: {fileID: 0}
