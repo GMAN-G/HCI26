@@ -26,9 +26,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/10.Scenes/09.MultipleImage.unity
     guid: 651c09e45cca6d94a9396f7da0d9520a
-  - enabled: 1
+  - enabled: 0
     path: Assets/10.Scenes/10.FaceMask.unity
     guid: 99f8554e152aca240997ec48fac5899b
+  - enabled: 1
+    path: Assets/10.Scenes/11. Face Features.unity
+    guid: e4ccf9ff8bbefc14fba5b2216e70b153
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9514d5b8ba6536148ae9d1ccc721b8f5, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
